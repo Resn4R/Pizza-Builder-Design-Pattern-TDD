@@ -14,6 +14,10 @@
 		4F0F0ABB2AF4276100CBB78E /* Pizza_Builder_TDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F0ABA2AF4276100CBB78E /* Pizza_Builder_TDDTests.swift */; };
 		4F0F0AC52AF4276100CBB78E /* Pizza_Builder_TDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F0AC42AF4276100CBB78E /* Pizza_Builder_TDDUITests.swift */; };
 		4F0F0AC72AF4276100CBB78E /* Pizza_Builder_TDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F0AC62AF4276100CBB78E /* Pizza_Builder_TDDUITestsLaunchTests.swift */; };
+		4F0F0AD42AF4279900CBB78E /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F0AD32AF4279900CBB78E /* Builder.swift */; };
+		4F0F0AD62AF42C7200CBB78E /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F0AD52AF42C7200CBB78E /* Pizza.swift */; };
+		4F0F0AD82AF42CEE00CBB78E /* Chef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F0AD72AF42CEE00CBB78E /* Chef.swift */; };
+		4F0F0ADA2AF42ECD00CBB78E /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F0AD92AF42ECD00CBB78E /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		4F0F0AC02AF4276100CBB78E /* Pizza Builder TDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pizza Builder TDDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0F0AC42AF4276100CBB78E /* Pizza_Builder_TDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza_Builder_TDDUITests.swift; sourceTree = "<group>"; };
 		4F0F0AC62AF4276100CBB78E /* Pizza_Builder_TDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza_Builder_TDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4F0F0AD32AF4279900CBB78E /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		4F0F0AD52AF42C7200CBB78E /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		4F0F0AD72AF42CEE00CBB78E /* Chef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chef.swift; sourceTree = "<group>"; };
+		4F0F0AD92AF42ECD00CBB78E /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				4F0F0AA92AF4275F00CBB78E /* Pizza_Builder_TDDApp.swift */,
 				4F0F0AAB2AF4276000CBB78E /* ContentView.swift */,
+				4F0F0AD32AF4279900CBB78E /* Builder.swift */,
+				4F0F0AD52AF42C7200CBB78E /* Pizza.swift */,
+				4F0F0AD72AF42CEE00CBB78E /* Chef.swift */,
+				4F0F0AD92AF42ECD00CBB78E /* Customer.swift */,
 				4F0F0AAD2AF4276100CBB78E /* Assets.xcassets */,
 				4F0F0AAF2AF4276100CBB78E /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0F0AD62AF42C7200CBB78E /* Pizza.swift in Sources */,
 				4F0F0AAC2AF4276000CBB78E /* ContentView.swift in Sources */,
 				4F0F0AAA2AF4276000CBB78E /* Pizza_Builder_TDDApp.swift in Sources */,
+				4F0F0ADA2AF42ECD00CBB78E /* Customer.swift in Sources */,
+				4F0F0AD82AF42CEE00CBB78E /* Chef.swift in Sources */,
+				4F0F0AD42AF4279900CBB78E /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
