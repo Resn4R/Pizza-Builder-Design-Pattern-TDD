@@ -8,7 +8,7 @@
 import Foundation
 
 class Chef {
-    private var builder: PizzaBuilder
+    var builder: PizzaBuilder
     
     init(builder: PizzaBuilder) {
         self.builder = builder
